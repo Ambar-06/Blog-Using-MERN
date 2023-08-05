@@ -24,7 +24,7 @@ function App() {
       <Route path='/articles-list' element={<ArticleList />} />
     </Routes>
       <Routes>
-      <Route path='/article' element={<Article />} />
+      <Route path='/article/:name' element={<Article />} />
     </Routes>
     </div>
     </Router>
